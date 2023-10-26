@@ -115,10 +115,16 @@ nav{
     margin-block: 3rem;
 }
 /* SECOND CONTAINER */
-/* .second-hold{
-    margin-inline: 5.3%;
+.second-hold{
     margin-top: 4rem;
-} */
+}
+.desktop{
+    display: block;
+}
+.for-mobile{
+    display: none;
+}
+
 .second-header{
     position: relative;
     max-width: 505px;
@@ -320,5 +326,64 @@ button{
     }
     .hero-select{
         margin-top: 2%;
+    }
+}
+@media screen and (max-width: 1036px) { 
+    h1{
+        font-size: 28px;
+        font-weight: 600;
+        /* line-height: 36px; */
+    }
+    h2{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h4{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .first-content h1{
+        max-width: 330px;
+    }
+    .second-header h1{
+        max-width: 300px;
+        line-height: 30px;
+        margin: auto;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .second-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second-flex img{
+        width: 100%;
+    }
+    img[src*="header2under"]{
+        /* position: absolute; */
+        margin-left: 10rem;
+        width: 76px;
+    }
+    /* FOOTER */
+    .work-together{
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .work-together h1 {
+        line-height: 40px;
+    }
+    .work-together .yellow-bcg{
+        padding-inline: 0.5rem;
+        margin-left: 2rem;
+    }
+    form{
+        width: 100%;
+    }
+    .extra-info{
+        flex-wrap: wrap;
     }
 }
