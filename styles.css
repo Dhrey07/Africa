@@ -64,10 +64,14 @@ header{
     align-items: center;
     margin-block: 1.5rem;
 }
+header img[src*="hamburger"]{
+    display: none;
+}
 nav{
     display: flex;
     gap: 2.5rem;
 }
+
 .hero-select{
     display: flex;
     justify-content: center;
@@ -341,6 +345,19 @@ button{
     h4{
         font-size: 14px;
         line-height: 20px;
+    }
+    .hero-select a{
+        font-size: 14px;
+        padding-inline: 1rem;
+    }
+    .hero-images{
+        margin-block: 1.5rem;
+    }
+    header img[src*="hamburger"]{
+        display: block;
+    }
+    nav{
+        display: none;
     }
     .first-content h1{
         max-width: 330px;
