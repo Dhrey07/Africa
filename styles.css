@@ -189,7 +189,7 @@ img[src*="header2under"]{
     border-radius: 20px;
     
     padding: 2rem;
-    width: 584px;
+    width: 100%px;
     background: #D3DF99;
     
 }
@@ -384,6 +384,12 @@ button{
         /* position: absolute; */
         margin-left: 10rem;
         width: 76px;
+    }
+    .client-infos p{
+        font-size: 12px;
+    }
+    .client-info img{
+        height: 36px;
     }
     /* FOOTER */
     .work-together{
