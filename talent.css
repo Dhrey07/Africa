@@ -152,7 +152,7 @@ img[src*="header2under"]{
     margin: auto;
     
 }
-.paragraphs button{
+.second-flex button{
     display: flex;
     padding: 16px 32px;
     justify-content: center;
@@ -160,6 +160,9 @@ img[src*="header2under"]{
     gap: 0.5rem;
     background: #2B4625;
     border-radius: 100px;
+}
+.smaller-screen{
+    display: none;
 }
 .paragraphs{
     max-width: 544px;
@@ -395,6 +398,39 @@ button{
         font-weight: 600;
         line-height: 20px;
     }
+    img[src*="Logo"]{
+        width: 77px;
+    }
+    .paragraphs h1{
+        text-align: center;
+        max-width: 197px;
+        line-height: 36px;
+        margin-inline: auto;
+    }
+    button{
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+    button img{
+        width: 24px;
+    }
+    .second-flex button{
+        margin-inline: auto;
+        display: flex;
+        padding: 16px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        background: #2B4625;
+        border-radius: 100px;
+        margin-top: 1rem;
+    }
+    .paragraphs p,.paragraphs button{
+        display: none;
+    }
+    .smaller-screen{
+        display: block;
+    }
     .hero-select a{
         font-size: 14px;
         padding-inline: 1rem;
@@ -409,7 +445,7 @@ button{
         display: none;
     }
     .first-content h1{
-        max-width: 330px;
+        max-width: 260px;
     }
     .second-header h1{
         max-width: 300px;
@@ -425,8 +461,9 @@ button{
     .second-flex{
         flex-wrap: wrap;
         justify-content: center;
+        gap: 2rem;
     }
-    .second-flex img{
+    img[src*="for-talent"]{
         width: 100%;
     }
     img[src*="header2under"]{

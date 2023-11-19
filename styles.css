@@ -93,6 +93,9 @@ nav{
     background: #D3DF99;
     transition: 0.7s;
 }
+img[src*="hero-image"]{
+    display: none;
+}
 .first-content h1{
     max-width: 670px;
     text-align: center;
@@ -326,7 +329,7 @@ button{
 @media screen and (min-device-width: 1200px) and (max-device-width: 1440px) {
     .first-container{
         margin-top: 3%;
-        height: 100vh;
+        /* height: 100vh; */
     }
     .hero-select{
         margin-top: 2%;
@@ -346,6 +349,15 @@ button{
         font-size: 14px;
         line-height: 20px;
     }
+    img[src*="Logo"]{
+        width: 77px;
+    }
+    img[src*="hero-img"]{
+        display: none;
+    }
+    img[src*="hero-image"]{
+        display: block;
+    }
     .hero-select a{
         font-size: 14px;
         padding-inline: 1rem;
@@ -361,6 +373,9 @@ button{
     }
     .first-content h1{
         max-width: 330px;
+    }
+    .second-hold{
+        margin-top: 2rem;
     }
     .second-header h1{
         max-width: 300px;
@@ -380,11 +395,11 @@ button{
     .second-flex img{
         width: 100%;
     }
-    img[src*="header2under"]{
-        /* position: absolute; */
+    /* .second-header ~ img[src*="header2under"]{
+        position: absolute;
         margin-left: 10rem;
         width: 76px;
-    }
+    } */
     .client-infos p{
         font-size: 12px;
     }
