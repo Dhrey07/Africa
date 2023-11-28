@@ -195,10 +195,9 @@ img[src*="header2under"]{
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-
     max-width: 696px;
     margin: auto;
-    padding-bottom: 600px;
+    padding-block: 1.5rem 600px;
 }
 
 /* THIRD CONTAINER */
@@ -447,8 +446,11 @@ button{
     .first-content h1{
         max-width: 260px;
     }
+    .for-skills-only p{
+        max-width: 324px;
+    }
     .second-header h1{
-        max-width: 300px;
+        max-width: 197px;
         line-height: 30px;
         margin: auto;
     }
@@ -462,13 +464,14 @@ button{
         flex-wrap: wrap;
         justify-content: center;
         gap: 2rem;
+        padding-block: 1rem 1rem;
     }
     img[src*="for-talent"]{
         width: 100%;
     }
     img[src*="header2under"]{
-        /* position: absolute; */
-        margin-left: 10rem;
+        position: absolute;
+        margin-left: 7rem;
         width: 76px;
     }
     .client-infos p{
