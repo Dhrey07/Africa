@@ -447,10 +447,11 @@ button{
         max-width: 260px;
     }
     .for-skills-only p{
+        padding-block: 1.2rem 300px;
         max-width: 324px;
     }
     .second-header h1{
-        max-width: 197px;
+        max-width: 220px;
         line-height: 30px;
         margin: auto;
     }
