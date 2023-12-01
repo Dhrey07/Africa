@@ -432,10 +432,10 @@ button{
     }
     .hero-select a{
         font-size: 14px;
-        padding-inline: 1rem;
+        padding-inline: 0.3rem;
     }
     .hero-images{
-        margin-block: 1.5rem;
+        margin-block: 1.5rem 0rem;
     }
     header img[src*="hamburger"]{
         display: block;

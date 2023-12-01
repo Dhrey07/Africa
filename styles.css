@@ -360,7 +360,7 @@ button{
     }
     .hero-select a{
         font-size: 14px;
-        padding-inline: 1rem;
+        padding-inline: 0.3rem;
     }
     .hero-images{
         margin-block: 1.5rem;
@@ -391,9 +391,15 @@ button{
     .second-flex{
         flex-wrap: wrap;
         justify-content: center;
+        /* margin-top: 1rem; */
     }
     .second-flex img{
         width: 100%;
+    }
+    img[src*="header2under"]{
+        width: 20%;
+        position: absolute;
+        margin-left: 30%;
     }
     /* .second-header ~ img[src*="header2under"]{
         position: absolute;
@@ -417,6 +423,9 @@ button{
     .work-together .yellow-bcg{
         padding-inline: 0.5rem;
         margin-left: 2rem;
+    }
+    button{
+        margin-bottom: 1.3rem;
     }
     form{
         width: 100%;
