@@ -360,7 +360,7 @@ button{
 @media screen and (min-device-width: 1200px) and (max-device-width: 1440px) {
     .first-container{
         margin-top: 3%;
-        height: 100vh;
+        /* height: 100vh; */
     }
     .hero-select{
         margin-top: 2%;
