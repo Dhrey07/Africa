@@ -66,7 +66,16 @@ header{
 }
 nav{
     display: flex;
+    align-items: center;
     gap: 2.5rem;
+}
+.signins{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: #ABC337;
+    color: #FFF;
+    border-radius: 100px;
 }
 header img[src*="hamburger"] {
     display: none;
