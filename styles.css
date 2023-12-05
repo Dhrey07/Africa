@@ -85,6 +85,14 @@ nav{
     justify-content: space-between !important;
     align-items: center;
 }
+.signins{
+    font-size: 18px;
+    font-weight: 600;
+    padding-inline: 2rem;
+    background: #ABC337;
+    color: #FFF !important ;
+    border-radius: 100px;
+}
 
 .hero-select{
     display: flex;
@@ -452,7 +460,7 @@ button{
         justify-content: space-between;
         align-items: center;
         margin-block: 1.5rem; */
-        margin-bottom: 65px;
+        margin-bottom: 20px;
     }
     #navbarSupportedContent > div.good > ul{
         gap: 0.2rem;
@@ -462,7 +470,7 @@ button{
     .good{
         display: block;
       float: right;
-      margin-top: 2rem;
+      margin-top: 0.1rem;
     }
     .navbar-nav{
         text-align: center;

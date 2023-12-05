@@ -15,8 +15,11 @@ html{
     gap: 3rem;
    
 }
-button{
+header button{
     display: none !important;
+}
+button{
+    display: none;
 }
 body{
     font-family: Poppins;
@@ -79,14 +82,14 @@ a{
 nav{
     display: flex;
     align-items: center;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 .signins{
     font-size: 18px;
     font-weight: 600;
-    padding: 1rem 2rem;
+    padding-inline: 2rem;
     background: #ABC337;
-    color: #FFF;
+    color: #FFF !important ;
     border-radius: 100px;
 }
 header img[src*="hamburger"] {
@@ -96,6 +99,9 @@ header img[src*="hamburger"] {
     display: flex;
     justify-content: center;
     /* gap: 2rem; */
+}
+.navbar-expand-lg{
+    justify-content: space-between;
 }
 .hero-select a{
     font-weight: 600;
@@ -529,17 +535,17 @@ button{
     .good{
         display: block;
       float: right;
-      margin-top: 2rem;
+      margin-top: 0.1rem;
     }
     .navbar-nav{
         text-align: center;
     }
-    button{
+    header button{
         color: #FFF;
         font-size: 1rem;
         font-weight: 500;
         list-style: 1.625rem;
- display: block !important;
+        display: block !important;
         background: #ffffff;
         border-radius: 0.25rem;
         padding: 0.625rem 1.5rem;
