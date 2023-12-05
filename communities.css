@@ -6,6 +6,18 @@ html{
     font-family: Poppins;
     
 }
+.goods{
+    flex-grow: 0;
+}
+.good{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+   
+}
+button{
+    display: none !important;
+}
 body{
     font-family: Poppins;
     background-color: #FAFAFA;
@@ -58,12 +70,12 @@ a{
 .first-hold{
     margin-inline: 5.3%;
 }
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-block: 1.5rem;
-}
+} */
 nav{
     display: flex;
     gap: 2.5rem;
@@ -538,3 +550,36 @@ button{
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width:  992px) {
+    .good{
+        display: block;
+      float: right;
+      margin-top: 2rem;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    button{
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 500;
+        list-style: 1.625rem;
+ display: block !important;
+        background: #ffffff;
+        border-radius: 0.25rem;
+        padding: 0.625rem 1.5rem;
+        border: none;
+    }
+
+    button:active{
+        border-color: #ffffff;
+    }
+    .goods{
+    flex-basis: 1;
+    }
+
+    /* .dojacat{
+        display: none;
+    } */
+    }
