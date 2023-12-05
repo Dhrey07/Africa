@@ -15,7 +15,7 @@ html{
     gap: 3rem;
    
 }
-button{
+header button{
     display: none !important;
 }
 body{
@@ -95,6 +95,17 @@ header img[src*="hamburger"] {
     padding-inline: 1.3rem;
     color: #2b4625;
 }
+.signins{
+    font-size: 18px;
+    font-weight: 600;
+    padding-inline: 2rem;
+    background: #ABC337;
+    color: #FFF !important ;
+    border-radius: 100px;
+}
+.navbar-expand-lg {
+    justify-content: space-between;
+}
 .hero-select .heroII{
    background: #D3DF99;
    border-radius: 0px 100px 100px 0px;
@@ -140,6 +151,7 @@ header img[src*="hamburger"] {
     padding: 2%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
     width: 350px;
@@ -457,9 +469,9 @@ button{
         font-size: 14px;
         margin-bottom: 1rem;
     }
-    button img{
+    /* button img{
         width: 24px;
-    }
+    } */
     .second-flex button{
         margin-inline: auto;
         display: flex;
@@ -555,21 +567,21 @@ button{
     .good{
         display: block;
       float: right;
-      margin-top: 2rem;
+      margin-top: 0.1rem;
     }
     .navbar-nav{
         text-align: center;
     }
-    button{
+    header button{
         color: #FFF;
         font-size: 1rem;
         font-weight: 500;
         list-style: 1.625rem;
- display: block !important;
+        display: block !important;
         background: #ffffff;
         border-radius: 0.25rem;
         padding: 0.625rem 1.5rem;
-        border: none;
+        border: none !important;
     }
 
     button:active{

@@ -18,9 +18,9 @@ html{
 header button{
     display: none !important;
 }
-button{
+/* button{
     display: none;
-}
+} */
 body{
     font-family: Poppins;
     background-color: #FAFAFA;
@@ -440,9 +440,9 @@ button{
         font-size: 14px;
         margin-bottom: 1rem;
     }
-    button img{
+    /* button img{
         width: 24px;
-    }
+    } */
     .second-flex button{
         margin-inline: auto;
         display: flex;
@@ -549,7 +549,7 @@ button{
         background: #ffffff;
         border-radius: 0.25rem;
         padding: 0.625rem 1.5rem;
-        border: none;
+        border: none !important;
     }
 
     button:active{

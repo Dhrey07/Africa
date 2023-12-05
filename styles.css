@@ -19,13 +19,14 @@ body{
     font-family: Poppins;
     background-color: #FAFAFA;
 }
-button{
+header button{
     display: none !important;
 }
 h1{
     color: #2b4625;
     font-family: Poppins;
     font-weight: 600;
+    margin-bottom: 0px;
     /* line-height: 76px; */
     font-size: 4rem;
 }
@@ -475,18 +476,17 @@ button{
     .navbar-nav{
         text-align: center;
     }
-    button{
+    header button{
         color: #FFF;
         font-size: 1rem;
         font-weight: 500;
         list-style: 1.625rem;
- display: block !important;
-        background: #ffffff;
+        display: block !important;
+        background: #ABC337;
         border-radius: 0.25rem;
         padding: 0.625rem 1.5rem;
-        border: none;
+        border: none !important;
     }
-
     button:active{
         border-color: #ffffff;
     }
