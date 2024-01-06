@@ -474,13 +474,13 @@ hr{
     .extra-info{
         flex-wrap: wrap;
     }
-    header{
-        /* display: flex;
+    /* header{
+        display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-block: 1.5rem; */
+        margin-block: 1.5rem;
         margin-bottom: 20px;
-    }
+    } */
     #navbarSupportedContent > div.good > ul{
         gap: 0.2rem;
     }
