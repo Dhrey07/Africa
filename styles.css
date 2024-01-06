@@ -394,11 +394,11 @@ hr{
         width: 77px;
     }
     img[src*="hero-img"]{
-        display: none;
-    }
-    img[src*="hero-image"]{
         display: block;
     }
+    /* img[src*="hero-image"]{
+        display: block;
+    } */
     .hero-select a{
         font-size: 14px;
         padding-inline: 0.3rem;
