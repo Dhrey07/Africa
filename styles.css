@@ -87,6 +87,9 @@ nav{
     align-items: center;
     gap: 1rem;
 }
+#sign{
+    transition: 1s;
+}
 .signins{
     font-size: 18px;
     font-weight: 600;
