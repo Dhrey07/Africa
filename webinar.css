@@ -15,18 +15,17 @@ html{
     gap: 3rem;
    
 }
+header button{
+    display: none !important;
+}
 body{
     font-family: Poppins;
     background-color: #FAFAFA;
-}
-header button{
-    display: none !important;
 }
 h1{
     color: #2b4625;
     font-family: Poppins;
     font-weight: 600;
-    margin-bottom: 0px;
     /* line-height: 76px; */
     font-size: 4rem;
 }
@@ -39,7 +38,7 @@ h2{
 }
 p{
     color: #5F5F5F;
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
@@ -71,40 +70,19 @@ a{
 .first-hold{
     margin-inline: 5.3%;
 }
-header{
-    /* display: flex;
+/* header{
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-block: 1.5rem; */
-   
+    margin-block: 1.5rem;
+} */
+nav{
+    display: flex;
+    gap: 2.5rem;
 }
-header img[src*="hamburger"]{
+header img[src*="hamburger"] {
     display: none;
 }
-nav{
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center;
-    gap: 1rem;
-}
-#sign{
-    transition: 1s;
-}
-.signins{
-    font-size: 18px;
-    font-weight: 600;
-    padding-inline: 3rem;
-    background-color: #ABC337;
-    color: #FFF !important;
-    border-radius: 100px;
-}
-.navbar-expand-lg .navbar-nav .nav-link{
-    padding-inline: 2rem;
-}
-.good .navbar-nav{
-    gap: 1rem;
-}
-
 .hero-select{
     display: flex;
     justify-content: center;
@@ -115,23 +93,33 @@ nav{
     line-height: 28px;
     text-align: center;
     padding-inline: 1.3rem;
-    padding-block: 0.5rem;
     color: #2b4625;
 }
-.hero-select .heroI{
-   background: #D3DF99;
-   border-radius: 100px 0px 0px 100px; 
+.signins{
+    font-size: 18px;
+    font-weight: 600;
+    padding-inline: 2rem;
+    background: #ABC337;
+    color: #FFF !important ;
+    border-radius: 100px;
 }
-.hero-select .heroII:hover{
-    border-radius: 0px 100px 100px 0px;
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-inline: 2rem;
+}
+.hero-select .heroII{
+   background: #D3DF99;
+   border-radius: 0px 100px 100px 0px;
+}
+.hero-select .heroI:hover{
+    border-radius: 100px 0px 0px 100px;
     background: #D3DF99;
     transition: 0.7s;
 }
-img[src*="hero-image"]{
-    display: none;
-}
 .first-content h1{
-    max-width: 670px;
+    max-width: 500px;
     text-align: center;
     margin: auto;
     margin-block: 1.5rem;
@@ -139,7 +127,7 @@ img[src*="hero-image"]{
 .yellow-bcg{
     background: #fdf292;
     border-radius: 100px;
-    padding-inline: .9rem;
+    padding-inline: 1rem;
 }
 .green-bcg{
     background: #D3DF99;
@@ -147,35 +135,66 @@ img[src*="hero-image"]{
     padding-inline: .8rem;
 }
 .first-content h4{
-    max-width: 950px;
+    max-width: 1069px;
     margin: auto;
-    font-size: 18px;
-    line-height: 30px;
 }
 .hero-images{
     margin: auto;
     width: 100%;
-    margin-block: 3rem;
+    margin-block: 1.5rem;
+}
+.community{
+    display: flex;
+    margin-block: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.community-cards{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 350px;
+    border-radius: 8px;
+    border: 2px solid #E0E6ED;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px #D3DAE2;
+}
+.community-cards button{
+    width: 150px;
+    margin-bottom: 0px;
+}
+.community-cards h2{
+    text-align: center;
+}
+.community .sales-community p{
+    margin-bottom: 1.5rem;
+}
+.community-cards p{
+    font-size: 14px;
 }
 /* SECOND CONTAINER */
+.second-container{
+    max-width: 1440px;
+    margin: auto;
+}
 .second-hold{
-    margin-top: 4rem;
+    margin-inline: 5.3%;
+    margin-top: 1rem;
 }
-.desktop{
-    display: block;
-}
-.for-mobile{
-    display: none;
-}
-
 .second-header{
     position: relative;
     max-width: 505px;
     margin: auto;
 }
 .second-container h1{
+    margin-inline: auto;
     text-align: center;
     line-height: 76px;
+    max-width: 505px; 
     
 }
 .light-bluc-bcg{
@@ -185,35 +204,70 @@ img[src*="hero-image"]{
 }
 img[src*="header2under"]{
     /* position: absolute; */
-    margin-left: 6rem;
+    margin-left: 2rem;
 }
 .second-flex{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: space-between;
-    padding-block: 1rem;
+    /* padding-block: 1rem 4rem; */
     max-width: 1440px;
-    padding-inline: 5.3%;
     margin: auto;
     
 }
-.paragraphs{
-    max-width: 620px;
+.second-flex button{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: #2B4625;
+    border-radius: 100px;
 }
-
+.smaller-screen{
+    display: none;
+}
+.paragraphs{
+    margin-inline: auto;
+    max-width: 849px;
+}
 .paragraphs p{
     margin-block: 1rem;
 }
 .bcg-extra{
     background: rgba(171, 195, 55, 0.50);
 }
+/* FOR SKILLS */
+.for-skills-only{
+    background-image: url(./images/learn-a-skill.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 53px;
+}
+.for-skills-only h1{
+    color: #FFF;
+    line-height: 60px;
+}
+.for-skills-only .light-bluc-bcg{
+    color: #2B4625;
+}
+.for-skills-only p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 696px;
+    margin: auto;
+    padding-block: 1.5rem 600px;
+}
+
 /* THIRD CONTAINER */
 .third-container{
     max-width: 1440px;
     margin: auto;
 }
 .third-hold{
+    padding-block: 50px;
     margin-inline: 5.3%;
 }
 .for-thirdd{
@@ -221,14 +275,13 @@ img[src*="header2under"]{
     text-align: center;
 }
 .third-container > img[src*="header2under"]{
-    /* position: absolute; */
     margin-left: 6rem;
 }
 .clients{
     border-radius: 20px;
     
     padding: 2rem;
-    width: 100%px;
+    width: 584px;
     background: #D3DF99;
     
 }
@@ -268,9 +321,12 @@ img[src*="header2under"]{
 .for-sign-up{
     margin-inline: 5.3%;
 }
-.work-together{
+/* .work-together{
     display: flex;
     justify-content: space-between;
+} */
+label{
+    color: #FAFAFA;
 }
 .work-together h1{
     font-weight: 600;
@@ -288,14 +344,14 @@ footer{
     background: #2B4625;
 }
 form{
-    width: 40%;
+    width: 100%;
     /* width: 27.86rem; */
     display: flex;
     flex-direction: column;
     gap: 0.97rem;
 }
 input{
-    padding: 1.25rem 1.56rem;
+    padding: 1rem 1.56rem;
     border-radius: 8px;
     border: none;
 }
@@ -303,7 +359,7 @@ textarea{
     border: none;
     padding: 1.25rem 1.56rem;
     border-radius: 8px;
-    height: 190px;
+    height: 100px;
 }
 textarea::placeholder{
     font-size: 0.875rem;
@@ -317,14 +373,14 @@ input::placeholder{
 }
 button{
     padding-block: 20px;
-    border-radius: 100px;
+    border-radius: 8px;
     font-size: 18px;
     font-weight: 400;
     background: #ABC337;
     font-family: Poppins;
     color: #FAFAFA;
     border: none;
-    margin-bottom: 68px;
+    margin-block: 20px 68px;
     cursor: pointer;
 }
 .extra-info{
@@ -356,9 +412,6 @@ button{
     color: #FFF;
     margin-bottom: 1rem;
 }
-hr{
-    color: #FFF;
-}
 .closing p{
     margin-top: 40px;
     text-align: center;
@@ -368,20 +421,26 @@ hr{
 }
 @media screen and (min-device-width: 1200px) and (max-device-width: 1440px) {
     .first-container{
-        margin-top: 1%;
+        margin-top: 3%;
         /* height: 100vh; */
     }
-    /* .hero-select{
+    .hero-select{
         margin-top: 2%;
-    } */
-}
-@media (min-width: 992px){
-    .navbar-expand-lg .navbar-nav {
-        flex-direction: row;
-        /* gap: 2.5rem; */
     }
 }
-
+@media screen and (min-device-width: 1037px) and (max-device-width: 1300px) {
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 36px;
+        line-height: 28px;
+    }
+    h4{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
 @media screen and (max-width: 1036px) { 
     h1{
         font-size: 28px;
@@ -396,21 +455,56 @@ hr{
         font-size: 14px;
         line-height: 20px;
     }
+    h5{
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
     img[src*="Logo"]{
         width: 77px;
     }
-    img[src*="hero-img"]{
+    .paragraphs h1{
+        text-align: center;
+        margin-bottom: 1rem;
+        max-width: 197px;
+        line-height: 36px;
+        margin-inline: auto;
+    }
+    button{
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+    /* button img{
+        width: 24px;
+    } */
+    .second-flex button{
+        margin-inline: auto;
+        display: flex;
+        padding: 16px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        background: #2B4625;
+        border-radius: 100px;
+        margin-top: 1rem;
+    }
+    .paragraphs p,.paragraphs button{
+        display: none;
+    }
+    .smaller-screen{
         display: block;
     }
-    /* img[src*="hero-image"]{
-        display: block;
-    } */
     .hero-select a{
         font-size: 14px;
         padding-inline: 0.3rem;
     }
+    .second-hold{
+        margin-top: 1rem;
+    }
     .hero-images{
-        margin-block: 1.5rem;
+        margin-block: 1.5rem 0rem;
     }
     header img[src*="hamburger"]{
         display: block;
@@ -419,13 +513,14 @@ hr{
         display: none;
     }
     .first-content h1{
-        max-width: 330px;
+        max-width: 260px;
     }
-    .second-hold{
-        margin-top: 3rem;
+    .for-skills-only p{
+        padding-block: 1.2rem 300px;
+        max-width: 324px;
     }
     .second-header h1{
-        max-width: 300px;
+        max-width: 220px;
         line-height: 30px;
         margin: auto;
     }
@@ -438,21 +533,17 @@ hr{
     .second-flex{
         flex-wrap: wrap;
         justify-content: center;
-        /* margin-top: 1rem; */
+        gap: 2rem;
+        padding-block: 1rem 1rem;
     }
-    .second-flex img{
+    img[src*="for-talent"]{
         width: 100%;
     }
     img[src*="header2under"]{
-        width: 20%;
         position: absolute;
-        margin-left: 30%;
-    }
-    /* .second-header ~ img[src*="header2under"]{
-        position: absolute;
-        margin-left: 10rem;
+        margin-left: 7rem;
         width: 76px;
-    } */
+    }
     .client-infos p{
         font-size: 12px;
     }
@@ -471,26 +562,14 @@ hr{
         padding-inline: 0.5rem;
         margin-left: 2rem;
     }
-    button{
-        margin-bottom: 1.3rem;
-    }
     form{
         width: 100%;
     }
     .extra-info{
         flex-wrap: wrap;
     }
-    /* header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-block: 1.5rem;
-        margin-bottom: 20px;
-    } */
-    #navbarSupportedContent > div.good > ul{
-        gap: 0.2rem;
-    }
 }
+
 @media screen and (max-width:  992px) {
     .good{
         display: block;
@@ -506,18 +585,17 @@ hr{
         font-weight: 500;
         list-style: 1.625rem;
         display: block !important;
-        background: #ABC337;
+        background: #ffffff;
         border-radius: 0.25rem;
         padding: 0.625rem 1.5rem;
         border: none !important;
-        visibility: none;
     }
+
     button:active{
         border-color: #ffffff;
     }
-    .hero-select a{
-        padding-block: 0rem;
-        padding-inline: .5rem;
+    .goods{
+    flex-basis: 1;
     }
 
     /* .dojacat{
