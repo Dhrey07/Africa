@@ -340,7 +340,7 @@ label{
     padding-inline: 2rem;
 }
 footer{
-    padding-block: 80px 1rem;
+    padding-block: 2rem 1rem;
     background: #2B4625;
 }
 form{
@@ -534,7 +534,7 @@ button{
         flex-wrap: wrap;
         justify-content: center;
         gap: 2rem;
-        padding-block: 1rem 1rem;
+        /* padding-block: 1rem 1rem; */
     }
     img[src*="for-talent"]{
         width: 100%;
