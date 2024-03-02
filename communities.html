@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="communities.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,55 +16,56 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>Capital Africa</title>
+    <title>Capital Africa Communities</title>
+    <script src="index.js"></script>
   </head>
   <body>
     <section class="first-container">
       <div class="first-hold">
-        <header >             
-          <nav class="navbar navbar-expand-lg navbar-light">     
-          <a class="navbar-brand" href="index.html">
-            <img src="images/Logo.svg" alt="" />
-          </a>
-          <button
-          style="display: flex;justify-content: center; align-items: center;margin: 0 !important;"
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span><img src="images/hamburger.svg" alt=""></span>
-        </button>
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Logo.svg" alt="" />
+            </a>
+            <button
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 !important;
+              "
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><img src="images/hamburger.svg" alt="" /></span>
+            </button>
             <div
-            class="collapse navbar-collapse goods"
-            id="navbarSupportedContent"
-          >
-            
-           <div class="good"> 
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a href="" class="nav-link link-dark"
-                  >Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link link-dark">About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="" class="nav-link link-dark signins">Sign In</a>
-              </li>
-            </ul>
-           
-          </div>
-           
-          </div>
+              class="collapse navbar-collapse goods"
+              id="navbarSupportedContent"
+            >
+              <div class="good">
+                <ul class="navbar-nav mr-auto">
+                  <!-- <li class="nav-item active">
+                    <a href="" class="nav-link link-dark">Home</a>
+                  </li> -->
+                  <!-- <li class="nav-item">
+                    <a href="" class="nav-link link-dark">About Us</a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a id="sign" onmouseover="subscribe()" onmouseleave="Signin()" href="" class="nav-link link-dark signins">Sign In</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <!-- <a href="">Home</a>
             <a href="">About Us</a>
             <a href="">Services</a> -->
           </nav>
-          
         </header>
         <!-- <div class="hero-select">
           <a href="index.html" class="heroI">FOR BUSINESS</a>
@@ -127,9 +128,11 @@
                   Are you a Graphic Designer, UI/UX Designer, Product Designer,
                   Motion Designer, Illustrator? Join the community of designers.
                 </p>
-                <button>
-                  Join <img src="images/arrow-right.png" alt="" />
-                </button>
+                <a href="design.html">
+                  <button>
+                    Join <img src="images/arrow-right.png" alt="" />
+                  </button>
+                </a>
               </div>
               <div class="community-cards">
                 <img src="./images/engineering.png" alt="" />
@@ -141,9 +144,11 @@
                   Are you a Frontend Programmer, Backend Programmer, Full-stack
                   Programmer, Cyber Security? Join the community of engineers.
                 </p>
-                <button>
-                  Join <img src="images/arrow-right.png" alt="" />
-                </button>
+                <a href="Engineering.html">
+                  <button>
+                    Join <img src="images/arrow-right.png" alt="" />
+                  </button>
+                </a>
               </div>
               <div class="community-cards sales-community">
                 <img src="./images/sales-conmmunity.png" alt="" />
@@ -155,9 +160,11 @@
                   Are you into Tech Sales, Marketing, Sales? Join the community
                   of Sales People.
                 </p>
-                <button>
-                  Join <img src="images/arrow-right.png" alt="" />
-                </button>
+                <a href="sales.html">
+                  <button>
+                    Join <img src="images/arrow-right.png" alt="" />
+                  </button>
+                </a>
               </div>
               <div class="community-cards">
                 <img src="./images/management.png" alt="" />
@@ -169,9 +176,11 @@
                   Are you into Product Management, Project Management? Join the
                   community of Managers.
                 </p>
-                <button>
-                  Join <img src="images/arrow-right.png" alt="" />
-                </button>
+                <a href="management.html">
+                  <button>
+                    Join <img src="images/arrow-right.png" alt="" />
+                  </button>
+                </a>
               </div>
               <div class="community-cards">
                 <img src="./images/analytics.png" alt="" />
@@ -179,12 +188,12 @@
                   Analytics <br />
                   Community
                 </h2>
-                <p>
-                    Are you into Analytics? Join the community of Analysts.
-                </p>
-                <button>
-                  Join <img src="images/arrow-right.png" alt="" />
-                </button>
+                <p>Are you into Analytics? Join the community of Analysts.</p>
+                <a href="analytics.html">
+                  <button>
+                    Join <img src="images/arrow-right.png" alt="" />
+                  </button>
+                </a>
               </div>
               <div class="community-cards">
                 <img src="./images/vocation.png" alt="" />
@@ -193,11 +202,14 @@
                   Community
                 </h2>
                 <p>
-                    Are you into any hand vocation? Join the community of Vocational People.
+                  Are you into any hand vocation? Join the community of
+                  Vocational People.
                 </p>
-                <button>
-                  Join <img src="images/arrow-right.png" alt="" />
-                </button>
+                <a href="vocation.html">
+                  <button>
+                    Join <img src="images/arrow-right.png" alt="" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -276,26 +288,26 @@
     </div> -->
   </body>
   <script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"
-></script>
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
   <footer>
     <div class="footer-hold">
       <div class="for-sign-up">
         <div class="work-together">
           <h1>Let’s Work <br /><span class="yellow-bcg">Together</span></h1>
-          <form action="">
+          <form action="https://formspree.io/f/moqgeyqw" method="POST">
             <input type="text" placeholder="Your Name" />
             <input type="text" placeholder="Your Email" />
             <textarea
@@ -305,7 +317,7 @@
               cols="30"
               rows="10"
             ></textarea>
-            <button>Submit</button>
+            <button type="submit">Send</button>
           </form>
         </div>
         <hr />
@@ -328,8 +340,16 @@
           <div class="extra-infos">
             <h5>Follow Us</h5>
             <div class="about">
-              <a target="_blank" href="https://www.linkedin.com/company/capitalafricahub/">Instagram</a>
-              <a target="_blank" href="https://www.instagram.com/capital.africa/">LinkedIn</a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/capitalafricahub/"
+                >Instagram</a
+              >
+              <a
+                target="_blank"
+                href="https://www.instagram.com/capital.africa/"
+                >LinkedIn</a
+              >
               <a target="_blank" href="https://twitter.com/_capitalafrica">X</a>
             </div>
           </div>

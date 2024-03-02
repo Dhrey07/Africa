@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Engineering.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/logo-11a-svg.svg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+
+    <title>Engineering Community</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("WyHpQPgyZXXRXCn53");
+      })();
+    </script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="first-container">
+      <div class="first-hold">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Logo.svg" alt="" />
+            </a>
+            <button
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 !important;
+              "
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><img src="images/hamburger.svg" alt="" /></span>
+            </button>
+            <div
+              class="collapse navbar-collapse goods"
+              id="navbarSupportedContent"
+            >
+              <div class="good">
+                <ul class="navbar-nav mr-auto">
+                  <!-- <li class="nav-item active">
+                    <a href="" class="nav-link link-dark">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link link-dark">About Us</a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a
+                      id="sign"
+                      onmouseover="subscribe()"
+                      onmouseleave="Signin()"
+                      href=""
+                      class="nav-link link-dark signins"
+                      >Sign In</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </section>
+    <!-- SECOND CONTAINER -->
+    <section class="second-container">
+      <div class="second-hold">
+        <div class="second-infos">
+          <div class="second-flex"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <div class="design-body">
+    <div class="paragraphs">
+      <h1>Engineering <span class="yellow-bcg">Community</span></h1>
+      <p>
+        Are you a Frontend Programmer, Backend Programmer, Full-stack
+        Programmer, Cyber Security? Join the community of engineers. Fill in all
+        details.
+      </p>
+      <!-- <button>
+          Join Community
+          <img src="images/arrow-right.png" alt="" width="24px" />
+        </button> -->
+    </div>
+  </div>
+  <div class="form-hold">
+    <div class="form-container">
+      <div class="work-together">
+        <form action="https://formspree.io/f/xoqgwyrp" method="POST">
+          <div class="for-flex">
+            <div class="item-one">
+              <label for="">Enter First Name</label>
+              <input
+                type="text"
+                id="first_name"
+                name="First Name"
+                placeholder="Enter First Name"
+              />
+            </div>
+            <div class="item-two">
+              <label for="">Enter Last Name</label>
+              <input
+                type="text"
+                id="last_name"
+                name="Last Name"
+                placeholder="Enter Last Name"
+              />
+            </div>
+          </div>
+          <div class="for-flex">
+            <div class="item-one">
+              <label for="">Contact Number</label>
+              <input
+                type="number"
+                maxlength="11"
+                id="contact_number"
+                name="Contact Number"
+                placeholder="Enter Contact Number"
+              />
+            </div>
+            <div class="item-two">
+              <label for="">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="Email Address"
+                placeholder="Enter Email Address"
+              />
+            </div>
+          </div>
+          <div class="for-flex">
+            <div class="item-one">
+              <label for="">Country</label>
+              <input
+                type="text"
+                id="coutry"
+                name="coutry"
+                placeholder="Enter your Country"
+              />
+            </div>
+            <div class="item-two">
+              <label for="">State</label>
+              <input
+                type="text"
+                id="state"
+                name="State"
+                placeholder="Enter your State"
+              />
+            </div>
+            <div class="item-three">
+              <label for="">City</label>
+              <input
+                type="text"
+                id="City"
+                name="City"
+                placeholder="Enter your City"
+              />
+            </div>
+          </div>
+          <div class="for-flex">
+            <div class="item-one">
+              <label for="">Select your branch of Engineering</label>
+              <select name="Branch of Engineering?" id="">
+                <option>Select a category</option>
+                <option>Frontend Engineering</option>
+                <option>Backend Development</option>
+                <option>Dev Op</option>
+                <option>Artificial Intelligence</option>
+                <option>Cyber Security</option>
+                <option>Cloud Computing</option>
+                <option>Others</option>
+              </select>
+            </div>
+            <div class="item-two">
+              <label for="">How long have you been Engineering for?</label>
+              <select name="Experience" id="">
+                <option>Less than a year</option>
+                <option>2 - 4 years</option>
+                <option>5 years +</option>
+              </select>
+            </div>
+          </div>
+          <div class="for-flex">
+            <div class="item-one">
+              <label for="">How did you learn Engineering?</label>
+              <select name="" id="How did you learn?">
+                <option>Select a category</option>
+                <option>Tech School</option>
+                <option>Coursera</option>
+                <option>Udemy</option>
+                <option>Youtube</option>
+                <option>LinkedIn Learning</option>
+                <option>Others</option>
+              </select>
+            </div>
+            <div class="item-two">
+              <label for="">What's your employment status?</label>
+              <select name="Employment status?" id="">
+                <option>Select an option</option>
+                <option>Employed</option>
+                <option>Self-employed</option>
+                <option>Unemployed</option>
+              </select>
+            </div>
+          </div>
+          <label for=""
+            >Why do you want to be a part of our Engineering Community?</label
+          >
+          <textarea
+            name="Why join Our Engineering Community?"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <button type="submit" >Join</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-hold">
+      <div class="for-sign-up">
+        <div id="for_form" class="work-together">
+          <h1>Let’s Work <br /><span class="yellow-bcg">Together</span></h1>
+          <form action="https://formspree.io/f/moqgeyqw" method="POST">
+            <input type="text" name="Client Name" placeholder="Your Name" />
+            <input type="text" name="Client Email" placeholder="Your Email" />
+            <textarea
+              name="Message"
+              placeholder="Message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <hr />
+        <div class="extra-info">
+          <div class="extra-infos">
+            <h5>Company</h5>
+            <div class="about">
+              <a href="#"><p>Home</p></a>
+              <a href="#hold"><p>Services</p></a>
+              <a href="#"><p>Blog</p></a>
+            </div>
+          </div>
+          <div class="extra-infos">
+            <h5>Terms & Policies</h5>
+            <div class="about">
+              <p>Privacy policy</p>
+              <p>Terms & Conditions</p>
+            </div>
+          </div>
+          <div class="extra-infos">
+            <h5>Follow Us</h5>
+            <div class="about">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/capitalafricahub/"
+                >Instagram</a
+              >
+              <a
+                target="_blank"
+                href="https://www.instagram.com/capital.africa/"
+                >LinkedIn</a
+              >
+              <a target="_blank" href="https://twitter.com/_capitalafrica">X</a>
+            </div>
+          </div>
+          <div class="extra-infos">
+            <h5>Contact Us</h5>
+            <div class="about">
+              <a href="">(+234) 813 205 4736</a>
+              <a href="">(+234) 705 309 0075</a>
+              <a href="mailto:info@capitalafrica.org">info@capitalafrica.org</a>
+            </div>
+          </div>
+        </div>
+        <div class="closing">
+          <p>©2023 Capital Africa. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>

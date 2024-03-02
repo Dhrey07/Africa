@@ -12,15 +12,25 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo-11a-svg.svg">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/logo-11a-svg.svg"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="index.js"></script>
     <title>Capital Africa</title>
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
     <section class="first-container">
       <div class="first-hold">
         <header>
@@ -57,14 +67,20 @@
                   <!-- <li class="nav-item">
                     <a href="" class="nav-link link-dark">About Us</a>
                   </li> -->
-                  <li class="nav-item dropdown">
+                  <!-- <li class="nav-item dropdown">
                     
                     <a target="_blank" href="webinar.html" id="sign" class="nav-link link-dark signins">Join Webinar</a>
-                  </li>
-                  
+                  </li> -->
+
                   <li class="nav-item dropdown">
-                    
-                    <a id="sign" onmouseover="subscribe()" onmouseleave="Signin()" href="" class="nav-link link-dark signins">Sign In</a>
+                    <a
+                      id="sign"
+                      onmouseover="subscribe()"
+                      onmouseleave="Signin()"
+                      href=""
+                      class="nav-link link-dark signins"
+                      >Sign In</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -79,12 +95,17 @@
           <a href="Talent.html" class="heroII">FOR TALENTS</a>
         </div>
         <div class="first-content">
-          <h1>
+          <h1 data-aos="zoom-in-up" data-aos-duration="1100" >
             Build Your <span class="yellow-bcg">Talent</span>,
             <span class="green-bcg">Grow</span> Your Business
           </h1>
-          <h4>
-            The most valuable investment of any organization is in the humans, the talents, within its ecosystem. We advocate the imperative for organizations worldwide, particularly across Africa, to place a premium on acquiring, equipping and growing with the right talents. This commitment extends beyond business growth, it’s about fortifying territories and fostering collective strength
+          <h4 data-aos="fade-up" data-aos-duration="2200">
+            The most valuable investment of any organization is in the humans,
+            the talents, within its ecosystem. We advocate the imperative for
+            organizations worldwide, particularly across Africa, to place a
+            premium on acquiring, equipping and growing with the right talents.
+            This commitment extends beyond business growth, it’s about
+            fortifying territories and fostering collective strength
           </h4>
           <div class="hero-images">
             <img src="images/hero-img.png" alt="" width="100%" />
@@ -101,7 +122,7 @@
           <img src="images/header2under.svg" alt="" />
         </div>
         <div class="second-infos desktop">
-          <div class="second-flex">
+          <div data-aos="fade-right" data-aos-duration="1300" class="second-flex">
             <img src="images/TA.png" alt="Talent Acquisition" max-width="80%" />
             <div class="paragraphs">
               <h2>Talent <span class="yellow-bcg">Acquisition</span></h2>
@@ -113,7 +134,7 @@
               </p>
             </div>
           </div>
-          <div class="second-flex">
+          <div data-aos="fade-left" data-aos-duration="1300" class="second-flex">
             <div class="paragraphs">
               <h2>Capital <span class="green-bcg">Plan</span></h2>
               <p>
@@ -128,7 +149,7 @@
             </div>
             <img src="images/CP.png" alt="Talent Acquisition" max-width="80%" />
           </div>
-          <div class="bcg-extra">
+          <div data-aos="flip-left" data-aos-duration="1300" class="bcg-extra">
             <div class="second-flex">
               <img
                 src="images/TD.png"
@@ -150,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="second-flex">
+          <div data-aos="zoom-out" data-aos-duration="1300" class="second-flex">
             <div class="paragraphs">
               <h2>
                 Portfolio/Talent <br /><span class="yellow-bcg"
@@ -170,7 +191,9 @@
               max-width="80%"
             />
           </div>
-          <div class="second-flex">
+          <div  data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" data-aos-duration="1300" class="second-flex">
             <img src="images/TB.png" alt="Talent Acquisition" max-width="80%" />
             <div class="paragraphs">
               <h2>Team <span class="green-bcg">Bonding</span></h2>
@@ -360,7 +383,6 @@
               id=""
               cols="30"
               rows="10"
-              
             ></textarea>
             <button type="submit">Send</button>
           </form>
@@ -385,8 +407,16 @@
           <div class="extra-infos">
             <h5>Follow Us</h5>
             <div class="about">
-              <a target="_blank" href="https://www.linkedin.com/company/capitalafricahub/">Instagram</a>
-              <a target="_blank" href="https://www.instagram.com/capital.africa/">LinkedIn</a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/capitalafricahub/"
+                >Instagram</a
+              >
+              <a
+                target="_blank"
+                href="https://www.instagram.com/capital.africa/"
+                >LinkedIn</a
+              >
               <a target="_blank" href="https://twitter.com/_capitalafrica">X</a>
             </div>
           </div>
