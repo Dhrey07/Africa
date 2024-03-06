@@ -130,7 +130,7 @@ header img[src*="hamburger"] {
     transition: 0.7s;
 }
 .first-content h1{
-    max-width: 500px;
+    max-width: 400px;
     text-align: center;
     margin: auto;
     margin-block: 1.5rem;
@@ -411,9 +411,7 @@ hr{
         margin-top: 1%;
         /* height: 100vh; */
     }
-    /* .hero-select{
-        margin-top: 2%;
-    } */
+    
 }
 @media screen and (min-device-width: 1037px) and (max-device-width: 1300px) {
     h1{
@@ -426,6 +424,9 @@ hr{
     h4{
         font-size: 14px;
         line-height: 20px;
+    }
+    .first-content h1 {
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 1036px) { 
