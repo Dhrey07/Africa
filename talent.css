@@ -590,3 +590,9 @@ hr{
         display: none;
     } */
     }
+@media screen and (max-width: 450px) {
+    .for-skills-only p{
+        padding-block: 1.2rem 100px;
+        max-width: 324px;
+    }
+}
